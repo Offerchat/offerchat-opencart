@@ -10,17 +10,17 @@ Offerchat module for OpenCart
 * admin/view/template/module/offerchat.tpl
 
 3.) Edit the following core site files
-  
+
 * File: \catalog\view\theme\yourtheme\template\common\footer.tpl
-  
+
 Add the following code:
-  
-`<?php echo $offerchat_code; ?>`
-  
+
+`<?php echo html_entity_decode($this->config->get('offerchat_code')); ?>`
+
 Just before this code:
-    
+
 `</body>`
-    
+
 4.) Login to the admin section
 
 5.) Go to System > Users > User Groups
