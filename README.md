@@ -3,7 +3,7 @@ Offerchat module for OpenCart
 
 1.) Backup existing folders/files and database
 
-2.) Place the following files in the right directories:
+2.) Download the `zip` file and place the following files in the right directories:
 
 * admin/controller/module/offerchat.php
 * admin/language/english/module/offerchat.php
