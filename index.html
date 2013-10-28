@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Offerchat-opencart by Offerchat</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Offerchat-opencart</h1>
+        <h2>Offerchat module for OpenCart</h2>
+        <a href="https://github.com/Offerchat/offerchat-opencart" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a name="offerchat-module-for-opencart" class="anchor" href="#offerchat-module-for-opencart"><span class="octicon octicon-link"></span></a>Offerchat module for OpenCart</h1>
+
+<p>This plugin will enable offerchat users to easily install offerchat widget to their OpenCart websites.</p>
+
+<h2>
+<a name="description" class="anchor" href="#description"><span class="octicon octicon-link"></span></a>Description</h2>
+
+<p>Make your site visitors feel somebody's ready to assist them by adding a web based live chat module on your site.</p>
+
+<p>The new Offerchat Live Chat plug-in for OpenCart will allow you to have a real person ready on alert to answer visitor questions while browsing your site. It's faster than email and more convenient than a phone call.</p>
+
+<p><a href="http://vimeo.com/48795544">Offerchat Video</a></p>
+
+<p>The plugin will appear as a chatbar located at the right-hand bottom of the screen. When clicked, it expands into a chat widget where a visitor can chat live one-on-one you. The Offerchat live chat plugin will be noticeable but not hinder your visitor's view while browsing your site.</p>
+
+<h2>
+<a name="things-you-can-do-with-the-offerchat-live-chat" class="anchor" href="#things-you-can-do-with-the-offerchat-live-chat"><span class="octicon octicon-link"></span></a>Things you can do with the Offerchat Live Chat:</h2>
+
+<ul>
+<li>Assist your customers when they can't find an item on your site</li>
+<li>Answer general questions</li>
+<li>Help them out when they encounter checkout errors</li>
+<li>Reply to chats immediately through a client chat panel</li>
+<li>Chat with your visitors using any browser and computer, wherever you are!</li>
+</ul><h2>
+<a name="why-choose-offerchat" class="anchor" href="#why-choose-offerchat"><span class="octicon octicon-link"></span></a>Why Choose Offerchat?</h2>
+
+<ul>
+<li>The freshest, fastest growing live chat application today.</li>
+<li>Very easy to setup and use.</li>
+<li>Works across major browsers (Chrome, Firefox, Safari, Opera &amp; IE8 up)</li>
+<li>Cool interface, customizable chat widget.</li>
+<li>It's web based. No crazy software installations</li>
+</ul><p>...and these are just some of the perks!</p>
+
+<p>Check out the <a href="http://www.offerchat.com" title="Offerchat">Offerchat</a> website to know more awesome stuff about this web-based live chat application.</p>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<ol>
+<li>Backup existing folders/files and database</li>
+<li>
+<p>Download the <code>zip</code> file and place the following files in the right directories:</p>
+
+<pre><code>* admin/controller/module/offerchat.php
+* admin/language/english/module/offerchat.php
+* admin/view/template/module/offerchat.tpl
+</code></pre>
+</li>
+<li>
+<p>Edit the following core site files</p>
+
+<pre><code>* File: \catalog\view\theme\yourtheme\template\common\footer.tpl
+</code></pre>
+
+<p>Add the following code:</p>
+
+<pre><code>&lt;?php echo html_entity_decode($this-&gt;config-&gt;get('offerchat_code')); ?&gt;
+</code></pre>
+
+<p>Just before this code:</p>
+
+<pre><code>&lt;/body&gt;
+</code></pre>
+</li>
+<li><p>Login to the admin section</p></li>
+<li><p>Go to System &gt; Users &gt; User Groups</p></li>
+<li><p>Edit the group 'Top Administrator'</p></li>
+<li><p>Tick the checkbox in Access Permission and Modify Permission for module/offerchat</p></li>
+<li><p>Save</p></li>
+<li><p>Go to Extensions &gt; Module</p></li>
+<li><p>Click Install next to Offerchat</p></li>
+<li><p>Edit Offerchat and add the code</p></li>
+</ol><h1>
+<a name="frequently-asked-questions" class="anchor" href="#frequently-asked-questions"><span class="octicon octicon-link"></span></a>Frequently Asked Questions</h1>
+
+<h2>
+<a name="who-can-use-this-plugin" class="anchor" href="#who-can-use-this-plugin"><span class="octicon octicon-link"></span></a>Who can use this plugin?</h2>
+
+<p>Offerchat Registered users who have joomla websites.</p>
+
+<h2>
+<a name="what-do-i-need-to-be-able-to-use-this-plugin" class="anchor" href="#what-do-i-need-to-be-able-to-use-this-plugin"><span class="octicon octicon-link"></span></a>What do I need to be able to use this plugin?</h2>
+
+<p>You need to be a registered user of Offerchat. If not yet, please register <a href="http://www.offerchat.com," title="Offerchat">here</a>. You will need your <code>API Key</code> to be able to use this plugin.</p>
+
+<h2>
+<a name="is-it-free-to-use" class="anchor" href="#is-it-free-to-use"><span class="octicon octicon-link"></span></a>Is it free to use?</h2>
+
+<p>Yes, the plugin is free. Similarly, getting an account at Offerchat is free. You can use the web based live chat tool and enjoy all full features for FREE.</p>
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>License: GPLv2 or later License URI: <a href="http://www.gnu.org/licenses/gpl-2.0.html">http://www.gnu.org/licenses/gpl-2.0.html</a></p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/Offerchat/offerchat-opencart/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/Offerchat/offerchat-opencart/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/Offerchat/offerchat-opencart"></a> is maintained by <a href="https://github.com/Offerchat">Offerchat</a>.</p>
+
+          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
